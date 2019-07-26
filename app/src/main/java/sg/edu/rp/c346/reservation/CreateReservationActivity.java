@@ -163,6 +163,8 @@ public class CreateReservationActivity extends AppCompatActivity {
                             finish();
                         }
                     });
+
+                    myBuilder.setNeutralButton("Cancel",null);
                     AlertDialog myDialog = myBuilder.create();
                     myDialog.show();
                 }
